@@ -2,6 +2,7 @@
 
 * {
     margin: 0px;
+    font-family: Ubuntu,sans-serif;
 }
 /* Header Banner Style */
 .header{
@@ -12,24 +13,28 @@
     height: 100vh;
     width: 100%;
     background-size: cover;
+}
+.content{
+    padding-left: 980px;
+    padding-top: 236px;
     text-align: right;
+    justify-content: right;
 }
 .title{
     font-weight: 700;
     font-size: 65px;
-    margin-bottom: 24px;
     color: #FFFFFF;
     width: 525px;
     height: 228px;
-    line-height: 76px;
 }
 .description{
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
-    width: 494px;
+    width: 525px;
     height: 78px;
-    line-height: 26px;
+
+    
 }
 .button{
     height: 64px;
@@ -38,13 +43,10 @@
     font-weight: 700;
     font-size: 20px;
     border: 0;
-    padding: 18px 35px;
     background: #FFFFFF;
-    margin-top: 20px;
+    margin-top: 10px;
 }
-.content{
-    padding: 300px 1000px;
-}
+
 /* My Failure Style */
 .my-failure{
     display: flex;
@@ -67,12 +69,9 @@
     width: 416px;
     height: 104px;
 }
-ul{
-    width: 349px;
-    height: 162px;
-}
 li{
     margin-bottom: 10px;
+    list-style: none;
 }
 .failure{
     padding: 100px;
@@ -106,16 +105,59 @@ li{
     background-image: url(img/gradient.png),  url(img/watch.png), url(img/watch.png);
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 130px;
-    padding-left: 500px;
+    border-radius: 10px;
     mix-blend-mode: darken;
+    height: 300px;
+    margin-top: 100px;
+    padding-left: 450px;
 }
-.mindset{
+.positive{
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     color: #FFFFFF;
-    margin-bottom: 25px;
     width: 459px;
-    height: 94px;
-    padding-top: 90px;
+    padding-top: 60px;
+}
+/* Footer style */
+.contact{
+    display: flex;
+    gap: 500px;
+    background: #151414;
+    padding: 130px 200px;
+    margin-top: 130px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 5px;
+}
+.contact a{
+    text-decoration: none;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+    color: #F8F8F8;
+}
+.footer-button{
+    height: 64px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    background: #005FAC;
+    margin-top: 5px;
 }
